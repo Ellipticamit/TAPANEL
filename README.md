@@ -17,3 +17,5 @@ react-router-dom: For navigation
 
 react-redux: To connect react and redux
 
+react-table: React Table
+
