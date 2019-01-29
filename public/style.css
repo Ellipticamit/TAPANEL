@@ -1,0 +1,227 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f5f5;
+    font-size: 14px;
+}
+.bg-login {
+    background: #ff2e44;
+    color: #ffffff;
+}
+
+.login-content {
+    margin: 100px 0;
+
+}
+
+.login-logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login-form {
+    background: #ffffff;
+    padding: 30px 30px 20px;
+    border-radius: 2px;
+    color: #878787;
+}
+
+.login-logo a {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.login-logo a:hover {
+    text-decoration: none;
+    color: #e1e1e1;
+}
+
+.login-form h5 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.login-form label {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing:0.5px;
+}
+
+label {
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.btn-primary {
+    background: #ff2e44;
+    border-color: #ff2e44;
+    color: #ffffff;
+  }
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary.active {
+    background: #fa001a;
+    border-color: #ff2e44;
+    color: #ffffff;
+    box-shadow: none;
+  }
+.login-form .btn {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px;
+    border: 0px;
+}
+.register-link {
+    border-top: 1px solid #e7e7e7;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #171717;
+}
+
+.header {
+    background: #ff2e44;
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    z-index: 999;
+}
+
+.logo {
+    background: #ff2e44;
+    display: inline-block;
+    padding: 16px 0;
+    text-align: center;
+    width: 250px;
+    transition: width 300ms ease-in-out;
+}
+
+.logo span {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.logout {
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.logout:hover {
+    color: #f1f1f1;
+    font-weight: 700;
+}
+
+.sidebar {
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    background: #fff;
+    font-size: 14px;
+    z-index: 100;
+    overflow: auto;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    transition: width 300ms ease-in-out;
+}
+
+.sidebar .nano {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sidebar .nano > .nano-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.sidebar ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar .nano-content > ul {
+    width: 250px;
+    transition: width 300ms ease-in-out;
+}
+
+.sidebar .nano-content > ul li.label {
+    font-size: 0.9em;
+    height: 30px;
+    line-height: 40px;
+    color: #ff2e44  ;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar .nano-content > ul li > a {
+    display: block;
+    cursor: pointer;
+    color: #878787;
+    padding: 10px 20px 10px 20px;
+    line-height: 20px;
+    border-bottom: none;
+    background: none;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    border-top: 1px solid #e1e1e1;
+}
+
+.sidebar .nano-content > ul li:hover > a, 
+.sidebar .nano-content > ul li.active > a {
+    color: #ff2e44;
+    position: relative;
+}
+
+.content-wrap {
+    margin-left: 250px;
+    padding-top: 55px;
+    transition: margin-left 300ms ease-in-out;
+}
+
+.main .page-header {
+    min-height: 50px;
+    margin: 0px;
+    padding: 0px 15px;
+    background: #ffffff;
+    border-bottom: 0px;
+}
+
+.main .page-header h1 {
+    font-size: 18px;
+    padding: 14px 0px;
+    margin: 0px;
+}
+
+.card {
+    background: #ffffff;
+    margin: 15px 0px 15px 0px;
+    padding: 30px;
+    border: 0px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px 5px #e7e7e7;
+}
+
+/*
+*/
