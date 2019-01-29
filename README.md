@@ -1,9 +1,9 @@
 # TAPANEL
 
-# RUN 
+## RUN 
 npm run start
 
-# Library Used
+## Library Used
 
 axios: for api call
 
