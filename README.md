@@ -1,6 +1,7 @@
-# TAPANEL
+# TA PANEL
 
 ## RUN 
+npm install
 npm run start
 
 ## Library Used
